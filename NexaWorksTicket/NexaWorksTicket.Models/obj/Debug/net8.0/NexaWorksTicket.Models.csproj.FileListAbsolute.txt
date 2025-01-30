@@ -1,0 +1,12 @@
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\bin\Debug\net8.0\NexaWorksTicket.Models.deps.json
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\bin\Debug\net8.0\NexaWorksTicket.Models.dll
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\bin\Debug\net8.0\NexaWorksTicket.Models.pdb
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.AssemblyInfoInputs.cache
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.AssemblyInfo.cs
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.csproj.CoreCompileInputs.cache
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.sourcelink.json
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.dll
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\refint\NexaWorksTicket.Models.dll
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\NexaWorksTicket.Models.pdb
+C:\Users\Lightnyng83\Desktop\OpenClassrooms\Projet 6\NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.Models\obj\Debug\net8.0\ref\NexaWorksTicket.Models.dll

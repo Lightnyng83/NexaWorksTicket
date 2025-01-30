@@ -1,0 +1,49 @@
+﻿/* Styles de la sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #343a40;
+    padding-top: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%); /* Cache la sidebar par défaut */
+}
+
+    .sidebar.show {
+        transform: translateX(0); /* Affiche la sidebar quand elle a la classe "show" */
+        padding-top:80px;
+    }
+
+    .sidebar a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        font-size: 18px;
+    }
+
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+
+/* Style pour la page principale avec du padding pour l'espace */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Menu mobile : si l'écran est petit, la sidebar est masquée */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+    }
+    .sidebar.show {
+        transform: translateX(0); /* Affiche la sidebar quand elle a la classe "show" */
+        padding-top: 80px;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}

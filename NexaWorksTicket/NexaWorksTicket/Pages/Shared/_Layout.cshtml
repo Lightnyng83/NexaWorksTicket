@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexaWorksTickets - @ViewData["Title"]</title>
+    <link rel="icon" href="/img/IconSite.png" />
+    <!-- Lien vers Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/Layout.css" rel="stylesheet" />
+    <script src="/js/Layout.js"></script>
+
+    <!-- Autres styles spécifiques à ton application -->
+    @RenderSection("Styles", required: false)
+
+
+</head>
+
+<body class="bg-light">
+    <div class="row-cols-xxl">
+        <!-- Navbar fixe -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="#" style="padding-right:50px">NexaWorksTicket</a>
+                
+            </div>
+        </nav>
+    </div>
+    <!-- Sidebar (menu latéral) -->
+    <div class="sidebar" id="sidebar">
+        <a href="#">Recettes</a>
+        <a href="#">Garde-manger</a>
+        <a href="#">Autres</a>
+    </div>
+    <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+
+
+    <div  style="margin-top:80px">
+        <!-- Toast Bootstrap -->
+        <div class="position-fixed center-0 end-0 p-3" style="z-index: 11">
+            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong id="toastTitle" class="me-auto"></strong>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div id="toastBody" class="toast-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenu principal -->
+    <div class="main-content" id="mainContent">
+        @RenderBody()
+    </div>
+
+
+    <!-- Scripts Bootstrap et Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <!-- Script pour afficher/masquer la sidebar -->
+    <script>
+        document.getElementById("toggleSidebarBtn").addEventListener("click", function () {
+            document.getElementById("sidebar").classList.toggle("show");
+        });
+    </script>
+
+    <!-- Autres scripts spécifiques à ta page -->
+    @RenderSection("Scripts", required: false)
+
+</body>
+
+</html>
