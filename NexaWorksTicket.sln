@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexaWorksTicket", "NexaWorksTicket\NexaWorksTicket\NexaWorksTicket.csproj", "{315D120A-761A-476A-A73D-66A70FBA7603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexaWorksTicket.Core", "NexaWorksTicket\NexaWorksTicket.Core\NexaWorksTicket.Core.csproj", "{9254FA5D-72AF-4E7A-95FB-29D22DF21588}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexaWorksTicket.Data", "NexaWorksTicket\NexaWorksTicket.Data\NexaWorksTicket.Data.csproj", "{E1703CA5-0604-4594-A661-16BBD0F59900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexaWorksTicket.Models", "NexaWorksTicket\NexaWorksTicket.Models\NexaWorksTicket.Models.csproj", "{6ED12E95-8169-4BF7-8025-F74FE831E0B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{315D120A-761A-476A-A73D-66A70FBA7603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315D120A-761A-476A-A73D-66A70FBA7603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315D120A-761A-476A-A73D-66A70FBA7603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315D120A-761A-476A-A73D-66A70FBA7603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9254FA5D-72AF-4E7A-95FB-29D22DF21588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9254FA5D-72AF-4E7A-95FB-29D22DF21588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9254FA5D-72AF-4E7A-95FB-29D22DF21588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9254FA5D-72AF-4E7A-95FB-29D22DF21588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1703CA5-0604-4594-A661-16BBD0F59900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1703CA5-0604-4594-A661-16BBD0F59900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1703CA5-0604-4594-A661-16BBD0F59900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1703CA5-0604-4594-A661-16BBD0F59900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED12E95-8169-4BF7-8025-F74FE831E0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED12E95-8169-4BF7-8025-F74FE831E0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED12E95-8169-4BF7-8025-F74FE831E0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED12E95-8169-4BF7-8025-F74FE831E0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
