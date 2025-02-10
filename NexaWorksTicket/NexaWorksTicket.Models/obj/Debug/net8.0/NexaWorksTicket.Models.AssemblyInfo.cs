@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NexaWorksTicket.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c5c2c2ea1ad6933da05a0dc4414ed78567c2534")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45807b157f2ae5a97285004b2b287fccb3dc4754")]
 [assembly: System.Reflection.AssemblyProductAttribute("NexaWorksTicket.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NexaWorksTicket.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
