@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 //string connection = "Server=(localdb)\\mssqllocaldb;Database=NexaWorksTicket;User=;Password=;";
 //Scaffold-DbContext 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NexaWorksTicket' Microsoft.EntityFrameworkCore.SqlServer
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContextFactory<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 

@@ -1,9 +1,4 @@
-﻿using NexaWorksTicket.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NexaWorksTicket.Models.Bdd;
 
 namespace NexaWorksTicket.Core.Services
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NexaWorksTicket.Data;
+namespace NexaWorksTicket.Models.Bdd;
 
 public partial class Os
 {
@@ -9,5 +9,5 @@ public partial class Os
 
     public string OsName { get; set; } = null!;
 
-    public virtual ICollection<ProductsVersion> ProductsVersions { get; set; } = new List<ProductsVersion>();
+    public virtual ICollection<ProductVersionOs> ProductVersionOs { get; set; } = new List<ProductVersionOs>();
 }

@@ -3,12 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|solutionrelative:nexaworksticket\\nexaworksticket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E1703CA5-0604-4594-A661-16BBD0F59900}|NexaWorksTicket\\NexaWorksTicket.Data\\NexaWorksTicket.Data.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1703CA5-0604-4594-A661-16BBD0F59900}|NexaWorksTicket\\NexaWorksTicket.Data\\NexaWorksTicket.Data.csproj|solutionrelative:nexaworksticket\\nexaworksticket.data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket\\nexaworksticket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|solutionrelative:nexaworksticket\\nexaworksticket\\nexaworksticket.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E1703CA5-0604-4594-A661-16BBD0F59900}|NexaWorksTicket\\NexaWorksTicket.Data\\NexaWorksTicket.Data.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1703CA5-0604-4594-A661-16BBD0F59900}|NexaWorksTicket\\NexaWorksTicket.Data\\NexaWorksTicket.Data.csproj|solutionrelative:nexaworksticket\\nexaworksticket.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.models\\bdd\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|solutionrelative:nexaworksticket\\nexaworksticket.models\\bdd\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9254FA5D-72AF-4E7A-95FB-29D22DF21588}|NexaWorksTicket\\NexaWorksTicket.Core\\NexaWorksTicket.Core.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.core\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254FA5D-72AF-4E7A-95FB-29D22DF21588}|NexaWorksTicket\\NexaWorksTicket.Core\\NexaWorksTicket.Core.csproj|solutionrelative:nexaworksticket\\nexaworksticket.core\\services\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|solutionrelative:nexaworksticket\\nexaworksticket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9254FA5D-72AF-4E7A-95FB-29D22DF21588}|NexaWorksTicket\\NexaWorksTicket.Core\\NexaWorksTicket.Core.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.core\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254FA5D-72AF-4E7A-95FB-29D22DF21588}|NexaWorksTicket\\NexaWorksTicket.Core\\NexaWorksTicket.Core.csproj|solutionrelative:nexaworksticket\\nexaworksticket.core\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9254FA5D-72AF-4E7A-95FB-29D22DF21588}|NexaWorksTicket\\NexaWorksTicket.Core\\NexaWorksTicket.Core.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.core\\repositories\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9254FA5D-72AF-4E7A-95FB-29D22DF21588}|NexaWorksTicket\\NexaWorksTicket.Core\\NexaWorksTicket.Core.csproj|solutionrelative:nexaworksticket\\nexaworksticket.core\\repositories\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|solutionrelative:nexaworksticket\\nexaworksticket\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.models\\bdd\\productversionos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|solutionrelative:nexaworksticket\\nexaworksticket.models\\bdd\\productversionos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.models\\bdd\\productsversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|solutionrelative:nexaworksticket\\nexaworksticket.models\\bdd\\productsversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.models\\bdd\\os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|solutionrelative:nexaworksticket\\nexaworksticket.models\\bdd\\os.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket.models\\bdd\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ED12E95-8169-4BF7-8025-F74FE831E0B6}|NexaWorksTicket\\NexaWorksTicket.Models\\NexaWorksTicket.Models.csproj|solutionrelative:nexaworksticket\\nexaworksticket.models\\bdd\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|c:\\users\\lightnyng83\\desktop\\openclassrooms\\projet 6\\nexaworksticket\\nexaworksticket\\nexaworksticket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{315D120A-761A-476A-A73D-66A70FBA7603}|NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj|solutionrelative:nexaworksticket\\nexaworksticket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,29 +85,176 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
-              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
-              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-30T11:18:49.864Z",
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Data\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAswOYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T19:10:51.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\ITicketRepository.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:25:51.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Core\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:25:19.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Ticket.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Ticket.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:25:14.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductVersionOs.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductVersionOs.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductVersionOs.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductVersionOs.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductVersionOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:00:56.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductsVersion.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductsVersion.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductsVersion.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductsVersion.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\ProductsVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:00:47.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Product.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Product.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Product.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:00:45.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Os.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Os.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Os.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Os.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Models\\Bdd\\Os.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:00:39.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\Program.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket\\Program.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\Program.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:43:30.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "NexaWorksTicket.csproj",
-              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj",
-              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj",
-              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj",
-              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.csproj",
-              "ViewState": "AgIAACwAAAAAAAAAAABAPQAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-30T10:06:44.54Z",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Data\\AppDbContext.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Data\\AppDbContext.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwC4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T16:43:20.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T11:30:57.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T11:25:55.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Core\\Services\\TicketService.cs",
+              "RelativeDocumentMoniker": "NexaWorksTicket\\NexaWorksTicket.Core\\Services\\TicketService.cs",
+              "ToolTip": "C:\\Users\\Lightnyng83\\Desktop\\OpenClassrooms\\Projet 6\\NexaWorksTicket\\NexaWorksTicket\\NexaWorksTicket.Core\\Services\\TicketService.cs",
+              "RelativeToolTip": "NexaWorksTicket\\NexaWorksTicket.Core\\Services\\TicketService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswFMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T13:12:41.506Z",
               "EditorCaption": ""
             }
           ]

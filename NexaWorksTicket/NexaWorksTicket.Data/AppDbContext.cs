@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using NexaWorksTicket.Models.Bdd;
 
 namespace NexaWorksTicket.Data
 {
@@ -12,13 +13,17 @@ namespace NexaWorksTicket.Data
 
         //"DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=NexaWorksTicket;User=;Password=;TrustServerCertificate=True",
 
+
         public virtual DbSet<Os> Os { get; set; }
 
         public virtual DbSet<Product> Products { get; set; }
 
+        public virtual DbSet<ProductVersionOs> ProductVersionOs { get; set; }
+
         public virtual DbSet<ProductsVersion> ProductsVersions { get; set; }
 
         public virtual DbSet<Ticket> Tickets { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=NexaWorksTicket", x => x.UseNetTopologySuite());
@@ -35,11 +40,28 @@ namespace NexaWorksTicket.Data
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.Property(e => e.ProductName).HasMaxLength(50);
+            });
 
-                entity.HasOne(d => d.Version).WithMany(p => p.Products)
-                    .HasForeignKey(d => d.VersionId)
+            modelBuilder.Entity<ProductVersionOs>(entity =>
+            {
+                entity.HasKey(e => e.IdProductVersionOs).HasName("PK_ProductVersionOs");
+
+                entity.Property(e => e.IdProductVersionOs).ValueGeneratedOnAdd();
+
+                entity.HasOne(d => d.IdOsNavigation).WithMany(p => p.ProductVersionOs)
+                    .HasForeignKey(d => d.IdOs)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Products_ProductsVersion");
+                    .HasConstraintName("FK_ProductVersionOs_Os");
+
+                entity.HasOne(d => d.IdProductNavigation).WithMany(p => p.ProductVersionOs)
+                    .HasForeignKey(d => d.IdProduct)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_ProductVersionOs_Products");
+
+                entity.HasOne(d => d.IdVersionNavigation).WithMany(p => p.ProductVersionOs)
+                    .HasForeignKey(d => d.IdVersion)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_ProductVersionOs_ProductsVersion");
             });
 
             modelBuilder.Entity<ProductsVersion>(entity =>
@@ -48,25 +70,19 @@ namespace NexaWorksTicket.Data
 
                 entity.ToTable("ProductsVersion");
 
-                entity.Property(e => e.VersionId).ValueGeneratedOnAdd();
                 entity.Property(e => e.Version).HasMaxLength(10);
-
-                entity.HasOne(d => d.Os).WithMany(p => p.ProductsVersions)
-                    .HasForeignKey(d => d.OsId)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_ProductsVersion_Os");
             });
 
             modelBuilder.Entity<Ticket>(entity =>
             {
-                entity.Property(e => e.TicketId).ValueGeneratedOnAdd();
-                entity.Property(e => e.FixingDate).HasDefaultValueSql("(getdate())");
-                entity.Property(e => e.FixingStatus).HasDefaultValue(FixingStatus.Open);
+                entity.ToTable("Ticket");
 
-                entity.HasOne(d => d.Product).WithMany(p => p.Tickets)
-                    .HasForeignKey(d => d.ProductId)
+                entity.Property(e => e.CreationDate).HasDefaultValueSql("(getdate())");
+
+                entity.HasOne(d => d.ProductVersionOs).WithMany(p => p.Tickets)
+                    .HasForeignKey(d => d.ProductVersionOsId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Tickets_Products");
+                    .HasConstraintName("FK_Ticket_ProductVersionOs");
             });
 
             OnModelCreatingPartial(modelBuilder);

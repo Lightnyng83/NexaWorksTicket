@@ -1,11 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NexaWorksTicket.Core.Repositories;
-using NexaWorksTicket.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NexaWorksTicket.Models.Bdd;
 
 namespace NexaWorksTicket.Core.Services
 {
@@ -27,27 +22,27 @@ namespace NexaWorksTicket.Core.Services
 
         public async Task<List<Ticket>> GetTicketsByProductAsync(int productId, FixingStatus status = FixingStatus.Open)
         {
-            return await _ticketRepository.GetAllTickets().Where(t => t.ProductId == productId && t.FixingStatus == status).ToListAsync();
+            return await _ticketRepository.GetAllTickets().Where(t => t.ProductVersionOs.IdProduct == productId && t.FixingStatus == status).ToListAsync();
         }
 
         public async Task<List<Ticket>> GetTicketsByProductAndVersionAsync(int productId, string version, FixingStatus status = FixingStatus.Open)
         {
             return await _ticketRepository.GetAllTickets()
-                                          .Where(t => t.ProductId == productId && t.Product.Version.Version == version && t.FixingStatus == status)
+                                          .Where(t => t.ProductVersionOs.IdProduct == productId && t.ProductVersionOs.IdVersionNavigation.Version == version && t.FixingStatus == status)
                                           .ToListAsync();
         }
 
         public async Task<List<Ticket>> GetTicketsByProductInPeriodAsync(int productId, DateTime start, DateTime end, FixingStatus status = FixingStatus.Open)
         {
             return await _ticketRepository.GetAllTickets()
-                                          .Where(t => t.ProductId == productId && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.FixingStatus == status)
+                                          .Where(t => t.ProductVersionOs.IdProduct == productId && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.FixingStatus == status)
                                           .ToListAsync();
         }
 
         public async Task<List<Ticket>> GetTicketsByProductAndVersionInPeriodAsync(int productId, string version, DateTime start, DateTime end, FixingStatus status = FixingStatus.Open)
         {
             return await _ticketRepository.GetAllTickets()
-                                          .Where(t => t.ProductId == productId && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.Product.Version.ToString() == version && t.FixingStatus == status)
+                                          .Where(t => t.ProductVersionOs.IdProduct == productId && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.ProductVersionOs.IdVersionNavigation.Version.ToString() == version && t.FixingStatus == status)
                                           .ToListAsync();
         }
 
@@ -58,35 +53,32 @@ namespace NexaWorksTicket.Core.Services
                                           .ToListAsync();
         }
 
-        public Task<List<Ticket>> GetTicketsByProductWithKeywordsAsync(int productId, List<string> keywords, FixingStatus status = FixingStatus.Open)
+        public async Task<List<Ticket>> GetTicketsByProductWithKeywordsAsync(int productId, List<string> keywords, FixingStatus status = FixingStatus.Open)
         {
-            return _ticketRepository.GetAllTickets()
-                                     .Where(t => t.FixingStatus == status && t.ProductId == productId && keywords.Any(keyword => t.Problem.Contains(keyword)))
+            return await _ticketRepository.GetAllTickets()
+                                     .Where(t => t.FixingStatus == status && t.ProductVersionOs.IdProduct == productId && keywords.Any(keyword => t.Problem.Contains(keyword)))
                                      .ToListAsync();
         }
 
-        public Task<List<Ticket>> GetTicketsByProductAndVersionWithKeywordsAsync(int productId, string version, List<string> keywords, FixingStatus status = FixingStatus.Open)
+        public async Task<List<Ticket>> GetTicketsByProductAndVersionWithKeywordsAsync(int productId, string version, List<string> keywords, FixingStatus status = FixingStatus.Open)
         {
-            return _ticketRepository.GetAllTickets()
-                                    .Where(t => t.FixingStatus == status && t.ProductId == productId && t.Product.Version.Version == version && keywords.Any(keyword => t.Problem.Contains(keyword)))
+            return await _ticketRepository.GetAllTickets()
+                                    .Where(t => t.FixingStatus == status && t.ProductVersionOs.IdProduct == productId && t.ProductVersionOs.IdVersionNavigation.Version == version && keywords.Any(keyword => t.Problem.Contains(keyword)))
                                     .ToListAsync();
         }
 
-        public Task<List<Ticket>> GetTicketsByProductInPeriodWithKeywordsAsync(int productId, DateTime start, DateTime end, List<string> keywords, FixingStatus status = FixingStatus.Open)
+        public async Task<List<Ticket>> GetTicketsByProductInPeriodWithKeywordsAsync(int productId, DateTime start, DateTime end, List<string> keywords, FixingStatus status = FixingStatus.Open)
         {
-            return _ticketRepository.GetAllTickets()
-                                                .Include(t => t.Product)
-                                                .Include(v => v.Product.Version)
-                                                .Where(t => t.ProductId == productId && keywords.Any(keyword => t.Problem.Contains(keyword) && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.FixingStatus == status))
+            return await _ticketRepository.GetAllTickets()
+                                               
+                                                .Where(t => t.ProductVersionOs.IdProduct == productId && keywords.Any(keyword => t.Problem.Contains(keyword) && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.FixingStatus == status))
                                                 .ToListAsync();
         }
 
-        public Task<List<Ticket>> GetTicketsByProductAndVersionInPeriodWithKeywordsAsync(int productId, int versionId, DateTime start, DateTime end, List<string> keywords, FixingStatus status = FixingStatus.Open)
+        public async Task<List<Ticket>> GetTicketsByProductAndVersionInPeriodWithKeywordsAsync(int productId, int versionId, DateTime start, DateTime end, List<string> keywords, FixingStatus status = FixingStatus.Open)
         {
-            return _ticketRepository.GetAllTickets()
-                                    .Include(t => t.Product)
-                                    .Include(v => v.Product.Version)
-                                    .Where(t => t.ProductId == productId && t.Product.VersionId == versionId && keywords.Any(keyword => t.Problem.Contains(keyword) && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.FixingStatus == status))
+            return await _ticketRepository.GetAllTickets()
+                                    .Where(t => t.ProductVersionOs.IdProduct == productId && t.ProductVersionOs.IdVersionNavigation.VersionId == versionId && keywords.Any(keyword => t.Problem.Contains(keyword) && t.CreationDate >= DateOnly.FromDateTime(start) && t.CreationDate <= DateOnly.FromDateTime(end) && t.FixingStatus == status))
                                     .ToListAsync();
         }
         #endregion
